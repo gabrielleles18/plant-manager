@@ -27,7 +27,7 @@ interface PlantsProps {
 }
 
 export function PlantSelect() {
-  const [environment, setEnvironment] = useState<EnvironmentProps[]>([]);
+  const [environments, setEnvironments] = useState<EnvironmentProps[]>([]);
   const [plants, setPlants] = useState<PlantsProps[]>([]);
   const [filteredPlants, setFilteredPlants] = useState<PlantsProps[]>([]);
   const [environmentSelected, setEnvironmentSelected] = useState('all');
@@ -41,13 +41,14 @@ export function PlantSelect() {
     const {data} = await api.get(`plants?_sort=name&_order=asc&_page=${page}&_limit=6`);
 
     if (!data)
-      return setLoading(true)
+      return setLoading(true);
+
     if (page > 1) {
       setPlants(oldValue => [...oldValue, ...data])
       setFilteredPlants(oldValue => [...oldValue, ...data])
     } else {
-      setPage(data)
-      setFilteredPlants(data)
+      setPlants(data);
+      setFilteredPlants(data);
     }
 
     setLoading(false)
@@ -78,7 +79,7 @@ export function PlantSelect() {
   useEffect(() => {
     async function fetchEnvironment() {
       const {data} = await api.get('plants_environments?_sort=title&_order=asc');
-      setEnvironment([{
+      setEnvironments([{
         key: 'all',
         title: 'Todos'
       },
@@ -108,7 +109,7 @@ export function PlantSelect() {
       </View>
       <View>
         <FlatList
-          data={environment}
+          data={environments}
           renderItem={({item}) => (
             <EnviromentButton
               title={item.title}
