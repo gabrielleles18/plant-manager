@@ -17,4 +17,4 @@ yarn start
 yarn server-json
 ```
 
-<a href="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl"><img src="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl" style="width: 200px; max-width: 100%; height: auto" title="plant-manager" />
+<a href="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl"><img src="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl" style="width: 200px; max-width: 200px; height: auto" title="plant-manager" />
