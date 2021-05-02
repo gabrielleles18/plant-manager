@@ -112,7 +112,10 @@ export function PlantSelect() {
                             active={item.key == environmentSelected}
                             onPress={() => handleEnvironmentSelected(item.key)}
                         />
-                    )} horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.enviromentList}
+                    )}
+                    horizontal
+                    showsHorizontalScrollIndicator={false}
+                    contentContainerStyle={styles.enviromentList}
                 />
             </View>
             <View style={styles.plants}>
@@ -167,7 +170,8 @@ const styles = StyleSheet.create({
         height: 40,
         justifyContent: 'center',
         paddingBottom: 5,
-        marginLeft: 32
+        paddingLeft: 30,
+        paddingRight: 30
     },
     plants: {
         flex: 1,

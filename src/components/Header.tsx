@@ -1,10 +1,11 @@
 import React, {useEffect, useState} from "react";
 import {Image, StyleSheet, Text, View} from "react-native";
-import colors from "../../styles/colors";
 import {getStatusBarHeight} from "react-native-iphone-x-helper";
-import userImg from '../assets/profile.png';
-import fonts from "../../styles/fonts";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+
+import colors from "../../styles/colors";
+import userImg from '../assets/profile.jpeg';
+import fonts from "../../styles/fonts";
 
 export function Header() {
     const [userName, setUserName] = useState<String>();

@@ -1,12 +1,13 @@
-import {SafeAreaView, View, StyleSheet, Text} from "react-native";
 import React from "react";
+import {SafeAreaView, View, StyleSheet, Text} from "react-native";
 import Emoji from "react-native-emoji";
+import {useNavigation} from "@react-navigation/native";
+import {useRoute} from "@react-navigation/core";
+
 import {Button} from "../components/Button";
 
 import colors from "../../styles/colors";
 import fonts from "../../styles/fonts";
-import {useNavigation} from "@react-navigation/native";
-import {useRoute} from "@react-navigation/core";
 
 interface Params {
     title: string,

@@ -7,7 +7,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "helper": "export PATH=\"$PATH:`yarn global bin`\"\n"
+    "helper": "export PATH='$PATH:`yarn global bin`'"
   },
   "dependencies": {
     "@expo-google-fonts/jost": "^0.1.0",
