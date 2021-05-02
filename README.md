@@ -17,10 +17,4 @@ yarn start
 yarn server-json
 ```
 
-
-<img src="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl" style="width: 300px;" title="plant-manager" />
-
-![](https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl | width=200 )
-
-<a href="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl"><img src="https://drive.google.com/uc?export=view&id=1FnrXpXc5THIpH_UEtzP17ULjXOqSfzpl" style="width: 300px; max-width: 100%; height: auto" title="plant-manager" />
-
+![image](https://drive.google.com/uc?export=view&id=1wBOsKVjcgqD5Or5cEi-a1qG8YGK4i2U_)
